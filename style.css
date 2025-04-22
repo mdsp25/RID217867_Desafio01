@@ -1,0 +1,178 @@
+html{
+    width: 1440px;
+    height: 2116px;
+    padding-left:656px;
+    margin: 0px;
+}
+
+#Cabecalho{
+    width: 1440px;
+    height: 475px;
+    background-color:#303030;
+
+}
+#Titulo_Cabecalho{
+    padding-top: 206px;
+    padding-left: 62px;
+    font-family: Inter;
+    font-weight: 600px;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+    color: #ffff;   
+}
+#Sub_Titulo_Cabecalho{
+    padding-top: -100px;
+    padding-left: 62px;
+    font-family: Inter;
+    font-weight: 300px;
+    font-size: 30px;
+    line-height: 5px;
+    letter-spacing: 0%;    
+    color:#FFFF;
+}
+#Container_Projetos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    width: 1440px;
+    height: 229px;
+    padding-top: 62px;
+    padding-left: -656px;
+}
+#Projetos_um{
+    width: 292px;
+    height: 66.17890167236328px;
+    padding-top: 54px;
+    padding-left: 200px;
+}
+#Projetos_dois{
+    text-align: center;
+    width: 354px;
+    height: 67px;
+    padding-top: 54px;
+    padding-left: -200px;
+}
+#Projetos_dois h1{
+    padding-left: 27px;
+}
+#Projetos_tres{
+    width: 361px;
+    height: 88px;
+    padding-top: 54px;
+    padding-left: 20px;
+}
+#Projetos_tres p{
+    text-align: left;
+}
+.Estatisticas_Projetos{ 
+    width: 300px;
+    text-align: left;  
+    padding-left: -95px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.Paragrafo_Projetos{
+    text-align: center;
+    margin-top: -20px;
+    font-family: Inter;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+#Experiencias{
+    width: 1440px;
+    height: 638px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#Titulo_Experiencias{
+    width: 735px;
+    height: 161px;
+    margin-left: 77px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #000000;
+
+}
+#Sub_Titulo_Experiencias{
+    width: 735px;
+    height: 161px;
+    margin-left: 77px;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}    
+#formulario{
+    width: 1440px;
+    height: 638px;
+    text-align: center;
+    background-color: #303030;
+    margin-top: 100px;
+}
+#titulo-formulario{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: Inter;
+    font-weight: 700px;
+    font-size: 35px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFF;
+
+}
+input{
+    width: 508px;
+    height: 72px;
+    padding-left: 20px; 
+    border-radius: 10px;
+    margin: 20px;
+    font-family: Raleway;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
+
+
+}
+button{
+    width: 286px;
+    height: 74px;
+    margin:50px ;
+    background-color:#C07212;
+    border: none;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#C07212;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #ee972c;
+}
